@@ -1,7 +1,7 @@
 import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-// import CanvasLoader from "../Loader";
+import CanvasLoader from "../Loader";
 
 const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -14,6 +14,8 @@ const Computers = () => {
       angle={.12}
       penumbra={1}
       intensity={1}
+      castShadow
+      shadow-mapSize={1024}
       />
       <primitive object={computer.scene} 
       scale={.75}
@@ -32,7 +34,7 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense >
+      <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
