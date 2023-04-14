@@ -13,7 +13,7 @@ function HOC() {
         viewport={{once: true, amount: .25}}
         className={`${styles.padding} max-w-7x; mx-auto relative z-0`}
         >
-
+            <span className='hash-span' id={idName}>&nbsp;</span>
             <Component/>
         </motion.section>
     )
