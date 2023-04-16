@@ -20,7 +20,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-15 h-10 object-contain" />
           <p className="text-white yext-[18px] font-bold cursor-pointer flex">
             Bryan Wienhoff &nbsp;
             <span className="sm:block hidden">| Full Stack Developer</span>
