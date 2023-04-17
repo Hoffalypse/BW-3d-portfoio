@@ -23,6 +23,9 @@ import {
   quorum,
   monarch,
   tutor,
+  integral,
+  earth,
+  hoffai,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -164,8 +167,7 @@ const experiences = [
     points: [
       "Tutoring students from full stack web development bootcamps as they work through learning the MERN Stack.",
       "Quickly and effectively troubleshoot code that have students stuck while implementing projects.",
-      "Use great tutoring to develop word of mouth referrals to gain addition students to assist."
-      
+      "Use great tutoring to develop word of mouth referrals to gain addition students to assist.",
     ],
   },
 ];
@@ -199,67 +201,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Integral Solutions",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Enterprise Application built for Integral Solutions,  Robust Employee and Admin Functionality managing all their bussiness needs. Built on MERN stack incorporating GrapgQL, Google API, React Bootstrap, JWT Decode and Full Calender NPM.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "GraphQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: integral,
+    source_code_link: "https://github.com/stevecalla/integral-solutions-dev",
+    live_link: "https://int-sol-dev.herokuapp.com/",
   },
   {
-    name: "Job IT",
+    name: "Earthship Packaging",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full Stack E-Commerce Application built for Earthship Packaging LLC. Frontend built with React and Redux. Node, Express and MongoDB on the backend. Full admin Login capability managing all users, products and orders. Checkout through Paypal",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RestAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Redux",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: earth,
+    source_code_link: "https://github.com/Hoffalypse/earthship-packaging-dev",
+    live_link: "https://earthship-packaging.herokuapp.com/",
   },
   {
-    name: "Trip Guide",
+    name: "AI Photo Sharing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    'I developed this app due to a fascination with AI technology<br/> and wanting to gain some experience using OpenAI APIs.<br/><br/> App utilizes MERN stack with Tailwind CSS and Vite.<br/> Image storage is done on Cloudinary and deployed using<br/> Render and Hostinger',
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hoffai,
+    source_code_link: 'https://github.com/Hoffalypse/AI-Photo-Booth',
+    live_link: "https://www.hoffai.com",
   },
 ];
 
