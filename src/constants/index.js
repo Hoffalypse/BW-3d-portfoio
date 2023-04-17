@@ -12,6 +12,8 @@ import {
   tailwind,
   nodejs,
   mongodb,
+graph,
+mysql,
   git,
   figma,
   docker,
@@ -78,10 +80,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -102,27 +104,29 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GraphQL",
+    icon: graph,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MySql",
+    icon: mysql,
   },
+
 ];
 
 const experiences = [
   {
-    title: "VP Project Manager",
+    title: "Project Manager",
     company_name: "Quorum Consulting Group",
     icon: quorum,
     iconBg: "#383E56",

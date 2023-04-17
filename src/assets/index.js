@@ -21,6 +21,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import graph from "./tech/graphql.png";
+import mysql from "./tech/mysql.png"
 
 import hoffLogo from "./company/hoffLogo.png";
 import quorum from "./company/quorum.jpg";
@@ -34,10 +36,9 @@ import wow from "./mplusteams.gif";
 import smokey from "./smokey.png";
 import bando from "./bando.jpg";
 
-import meredith from "./meredith.png"
-import chris from "./chris.png"
-import angela from "./angela.png"
-
+import meredith from "./meredith.png";
+import chris from "./chris.png";
+import angela from "./angela.png";
 
 export {
   logo,
@@ -56,6 +57,8 @@ export {
   html,
   javascript,
   mongodb,
+  graph,
+  mysql,
   nodejs,
   reactjs,
   redux,
@@ -74,5 +77,5 @@ export {
   tutor,
   meredith,
   chris,
-  angela
+  angela,
 };

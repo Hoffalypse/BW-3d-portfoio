@@ -6,6 +6,7 @@ import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc';
 
+
 const ServiceCard =({index, title, icon}) => {
   return(
 
@@ -56,6 +57,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+     
     </>
   )
 }
