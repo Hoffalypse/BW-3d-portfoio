@@ -26,6 +26,9 @@ import {
   wow,
   smokey,
   bando,
+  meredith,
+  chris,
+  angela,
 } from "../assets";
 
 export const navLinks = [
@@ -175,27 +178,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with HoffTech Solutions was as smooth and painless as I could ever hope. Bryan is full of creative ideas.",
+    name: "Meredith Tate",
+    designation: "CEO",
+    company: "Earthship Packaging",
+    image: meredith,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "One of the most talented new engineers I have ever had the pleasure of working with, a true talent.",
+    name: "John Wilday",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Builtrite Finance",
+    image: chris,
+  },
+  {
+    testimonial:
+      "Bryan is a great problem solver and couldn't have built our business to the scope it is today without him.",
+    name: "Angela Davis",
+    designation: "CEO",
+    company: "Quorum Consulting Group",
+    image: angela,
   },
 ];
 

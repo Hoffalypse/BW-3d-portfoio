@@ -34,6 +34,11 @@ import wow from "./mplusteams.gif";
 import smokey from "./smokey.png";
 import bando from "./bando.jpg";
 
+import meredith from "./meredith.png"
+import chris from "./chris.png"
+import angela from "./angela.png"
+
+
 export {
   logo,
   backend,
@@ -67,4 +72,7 @@ export {
   quorum,
   monarch,
   tutor,
+  meredith,
+  chris,
+  angela
 };
