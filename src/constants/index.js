@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   hoffLogo,
   quorum,
@@ -26,6 +23,9 @@ import {
   integral,
   earth,
   hoffai,
+  wow,
+  smokey,
+  bando,
 } from "../assets";
 
 export const navLinks = [
@@ -247,7 +247,7 @@ const projects = [
   {
     name: "AI Photo Sharing",
     description:
-    'I developed this app due to a fascination with AI technology<br/> and wanting to gain some experience using OpenAI APIs.<br/><br/> App utilizes MERN stack with Tailwind CSS and Vite.<br/> Image storage is done on Cloudinary and deployed using<br/> Render and Hostinger',
+    'I developed this app due to a fascination with AI technology and wanting to gain some experience using OpenAI APIs. App utilizes MERN stack with Tailwind CSS and Vite. Image storage is done on Cloudinary and deployed using Render and Hostinger',
     tags: [
       {
         name: "React",
@@ -265,6 +265,72 @@ const projects = [
     image: hoffai,
     source_code_link: 'https://github.com/Hoffalypse/AI-Photo-Booth',
     live_link: "https://www.hoffai.com",
+  },
+  {
+    name: "WOW Team Builder",
+    description:
+    'This App creates teams for World of Warcraft Mythic+ battles. Access to all Mythic+ data. Full Stack application using handlebars on the frontend Node, Express, MySQL on Backend utilizing multiple APIs',
+    tags: [
+      {
+        name: "Handlebars",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wow,
+    source_code_link: 'https://github.com/Hoffalypse/mythic-plus-team',
+    live_link: "https://mythic-plus-team.herokuapp.com/",
+  },
+  {
+    name: "Forest Fire Fighter App",
+    description:
+    'No more carrying around a satchel full of forms and calendars. Full Stack Application Using React, GraphQL, Node, Express, and MongoDB. This App utilizes Calender data, APIs, encrypted login and Geolocation ',    
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GeoLocation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smokey,
+    source_code_link: 'https://github.com/moyuh/fire-fighter-tracking',
+    live_link: "https://smokeys-helpers.herokuapp.com/",
+  },
+  {
+    name: "Band Search App",
+    description:
+    'This App is a one stop shop for all band information, biographies, album data and upcoming concerts. Frontend application using Javascript, CSS and HTML. Recieves API data from Ticketmsater and theAudioDB.',
+    tags: [
+      {
+        name: "jQuery",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frontend",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bando,
+    source_code_link: 'https://github.com/joseeenrique/Music-App',
+    live_link: "https://joseeenrique.github.io/Music-App/",
   },
 ];
 

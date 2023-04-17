@@ -4,7 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import live from "./live.png"
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -22,20 +22,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import hoffLogo from "./company/hoffLogo.png";
+import quorum from "./company/quorum.jpg";
+import monarch from "./company/monarch.png";
+import tutor from "./company/tutor.png";
 
-
-import hoffLogo from "./company/hoffLogo.png"
-import quorum from "./company/quorum.jpg"
-import monarch from "./company/monarch.png"
-import tutor from "./company/tutor.png"
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import integral from "./logo.png"
-import earth from './earth-port.png'
-import hoffai from './Hoffai.png'
-
+import integral from "./logo.png";
+import earth from "./earth-port.png";
+import hoffai from "./Hoffai.png";
+import wow from "./mplusteams.gif";
+import smokey from "./smokey.png";
+import bando from "./bando.jpg";
 
 export {
   logo,
@@ -60,15 +57,14 @@ export {
   tailwind,
   typescript,
   threejs,
-integral,
-earth,
-hoffai,
-  carrent,
-  jobit,
-  tripguide,
+  integral,
+  earth,
+  hoffai,
+  wow,
+  smokey,
+  bando,
   hoffLogo,
   quorum,
   monarch,
-  tutor
-
+  tutor,
 };
