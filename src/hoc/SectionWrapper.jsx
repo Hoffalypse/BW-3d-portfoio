@@ -10,7 +10,7 @@ function HOC() {
         variants={staggerContainer()}
         initial='hidden'
         whileInView='show'
-        viewport={{once: true, amount: .25}}
+        viewport={{once: false, amount: .25}}
         className={`${styles.padding} max-w-7x; mx-auto relative z-0`}
         >
             <span className='hash-span' id={idName}>&nbsp;</span>

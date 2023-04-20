@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -11,7 +11,10 @@ import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
+ 
   return (
+    <>
+   
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.056]} />
@@ -31,10 +34,27 @@ const Ball = (props) => {
         />
       </mesh>
     </Float>
+
+    </>
   );
 };
 
 const BallCanvas = ({ icon }) => {
+//   const [isMobile, setIsMobile] = useState(false)
+
+//   useEffect(() => {
+//     const mediaQuery = window.matchMedia('(max-width:500px)')
+//   setIsMobile(mediaQuery.matches)
+// const handleMediaQueryChange = (event) => {
+//   setIsMobile(event.matches)
+// }
+// mediaQuery.addEventListener('change', handleMediaQueryChange)
+
+// return () => {
+// mediaQuery.removeEventListener('change', handleMediaQueryChange)
+// }
+
+//   }, [])
   return (
     <Canvas
     //  frameloop="demand"
