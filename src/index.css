@@ -126,6 +126,44 @@
   transform: translateZ(0);
 }
 
+@media (max-width: 639px ) {
+  .git {
+margin-left: 450px;
+  }
+  
+}
+@media (max-width: 600px ) {
+  .git {
+margin-left: 400px;
+  }
+  
+}
+@media (max-width: 560px ) {
+  .git {
+margin-left: 360px;
+  }
+  
+}
+
+@media (max-width: 500px ) {
+  .git {
+margin-left: 310px;
+  }
+  
+}
+@media (max-width: 468px ) {
+  .git {
+margin-left: 270px;
+  }
+  
+}
+@media (max-width: 384px ) {
+  .git {
+margin-left: 200px;
+  }
+  
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

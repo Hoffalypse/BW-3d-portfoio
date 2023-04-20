@@ -16,7 +16,7 @@ const ProjectCard = ({
   live_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.05, 0.075)}>
+    <div >
       <Tilt
         options={{
           max: 45,
@@ -46,7 +46,7 @@ const ProjectCard = ({
               />
             </div>
             </div>
-            <div className="ml-56">
+            <div className=" git ml-56">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inset-0"
@@ -73,7 +73,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
