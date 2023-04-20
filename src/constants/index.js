@@ -332,7 +332,7 @@ const projects = [
     ],
     image: bando,
     source_code_link: "https://github.com/joseeenrique/Music-App",
-    live_link: "",
+    live_link: "https://hoffalypse.github.io/Bandopedia/",
   },
 ];
 
