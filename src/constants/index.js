@@ -202,6 +202,29 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "AI Photo Sharing",
+    description:
+      "I developed these apps due to a fascination with AI technology and wanting to gain some experience using OpenAI APIs. Apps utilize MERN stack with TailwindCSS, Threejs, Vite, Cloudinary, Motion Framer and Valtio. Deployed using Render and Hostinger.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoffai,
+    source_code_link: "https://github.com/Hoffalypse/AI-Photo-Booth",
+    live_link: "https://www.hoffai.com",
+  },
   {
     name: "Integral Solutions",
     description:
@@ -246,28 +269,7 @@ const projects = [
     source_code_link: "https://github.com/Hoffalypse/earthship-packaging-dev",
     live_link: "https://earthship-packaging.herokuapp.com/",
   },
-  {
-    name: "AI Photo Sharing",
-    description:
-      "I developed this app due to a fascination with AI technology and wanting to gain some experience using OpenAI APIs. App utilizes MERN stack with Tailwind CSS and Vite. Image storage is done on Cloudinary and deployed using Render and Hostinger.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hoffai,
-    source_code_link: "https://github.com/Hoffalypse/AI-Photo-Booth",
-    live_link: "https://www.hoffai.com",
-  },
+
   {
     name: "WOW Team Builder",
     description:
