@@ -204,12 +204,12 @@ const testimonials = [
 const projects = [
 
   {
-    name: "AI Trio Apps",
+    name: "AI Applications",
     description:
       "I developed these apps due to a fascination with AI technology and wanting to gain some experience using OpenAI APIs. Apps utilize MERN stack with TailwindCSS, Threejs, Vite, Cloudinary, Motion Framer and Valtio. Deployed using Render and Hostinger.",
     tags: [
       {
-        name: "React",
+        name: "ThreeJS",
         color: "blue-text-gradient",
       },
       {
