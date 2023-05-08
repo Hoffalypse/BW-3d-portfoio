@@ -126,6 +126,59 @@
   transform: translateZ(0);
 }
 
+.align {
+  list-style: none;   
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: underline;
+  color: white;
+}
+
+.space{
+  margin-right: 15px;
+  margin-top: 8px;
+ 
+}
+
+.spacing2 {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  /* margin-bottom: 50px; */
+}
+.linkedin{
+  color: #0B64CC;
+  transition: 0.5s;
+}
+.linkedin:hover{
+  padding-top: 17px;
+  padding-bottom: 17px; ;
+  background-color: white;
+  border-radius: 17px;
+}
+.github{
+  color: white;  
+  transition: 0.5s;  
+}
+.github:hover{
+  padding-top: 17px;
+  padding-bottom: 14px; ;
+  background-color: white;
+  border-radius: 50%;
+}
+.twitter{
+  color: #189BF3;
+  transition: 0.5s;  
+}
+.twitter:hover{
+  padding-top: 15px;
+  padding-bottom: 14px; ;
+  background-color: white;
+  border-radius: 50%;
+}
+
 @media (max-width: 639px ) {
   .git {
 margin-left: 450px;
