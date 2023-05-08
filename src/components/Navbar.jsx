@@ -32,7 +32,7 @@ const Navbar = () => {
                 <li className="align space"><a href="https://www.linkedin.com/in/bryan-wienhoff-10a011241/" target="_blank"rel='noreferrer'><i className="fa-brands fa-linkedin fa-2xl linkedin"></i></a></li>
                 <li className="align space"><a href="https://twitter.com/BryanWienhoff" target="_blank"rel='noreferrer'><i className="fa-brands fa-square-twitter fa-2xl twitter"></i></a></li>
             </ul> */}
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}

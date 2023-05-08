@@ -120,19 +120,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Project Manager",
-    company_name: "Quorum Consulting Group",
-    icon: quorum,
-    iconBg: "#383E56",
-    date: "2006 - 2021",
-    points: [
-      "Developed new performance metrics and accounting process improvements",
-      "Oversaw over 100 projects across all phases of development",
-      "Collaborated with Web and Database Managers to develop user-friendly investment data software",
-      "Over my career at QCG, company grew from 6 employees to almost 50 and company revenue increased 15 fold",
-    ],
-  },
+
   {
     title: "Software Engineer",
     company_name: "HoffTech Solutions",
@@ -144,6 +132,18 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers and other developers to create high-quality applications",
       "Implementing responsive design and ensuring cross-browser compatibility",
       "Develop integrated administrator panels to track employee and client data, greatly increasing productivity",
+    ],
+  },
+  {
+    title: "Web Development Tutor",
+    company_name: "Self-Employed",
+    icon: tutor,
+    iconBg: "#f1f1f1",
+    date: "2022 - Present",
+    points: [
+      "Tutoring students from full stack web development bootcamps as they work through learning the MERN Stack",
+      "Quickly and effectively troubleshoot code that when students are stuck with implementing projects and assignments",
+      "Use effecctive tutoring to generate word-of-mouth referrals to gain additional students to assist",
     ],
   },
   {
@@ -159,19 +159,21 @@ const experiences = [
       "Daily interaction with guests and team conflict resolution",
     ],
   },
-
   {
-    title: "Web Development Tutor",
-    company_name: "Self-Employed",
-    icon: tutor,
-    iconBg: "#f1f1f1",
-    date: "2022 - Present",
+    title: "Project Manager",
+    company_name: "Quorum Consulting Group",
+    icon: quorum,
+    iconBg: "#383E56",
+    date: "2006 - 2021",
     points: [
-      "Tutoring students from full stack web development bootcamps as they work through learning the MERN Stack",
-      "Quickly and effectively troubleshoot code that when students are stuck with implementing projects and assignments",
-      "Use effecctive tutoring to generate word-of-mouth referrals to gain additional students to assist",
+      "Developed new performance metrics and accounting process improvements",
+      "Oversaw over 100 projects across all phases of development",
+      "Collaborated with Web and Database Managers to develop user-friendly investment data software",
+      "Over my career at QCG, company grew from 6 employees to almost 50 and company revenue increased 15 fold",
     ],
   },
+
+
 ];
 
 const testimonials = [
