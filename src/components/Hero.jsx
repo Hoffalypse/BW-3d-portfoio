@@ -13,11 +13,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white flex flex-row`}> Hi, I'm <span className='text-[#915eff] mx-5'>Bryan</span>
-          <ul className="spacing2">
-                <li className="align space"><a href="https://github.com/Hoffalypse" target="_blank" rel='noreferrer'> <i className="fa-brands fa-square-github fa-2xl github"></i></a></li>
-                <li className="align space"><a href="https://www.linkedin.com/in/bryan-wienhoff-10a011241/" target="_blank"rel='noreferrer'><i className="fa-brands fa-linkedin fa-2xl linkedin"></i></a></li>
-                <li className="align space"><a href="https://twitter.com/BryanWienhoff" target="_blank"rel='noreferrer'><i className="fa-brands fa-square-twitter fa-2xl twitter"></i></a></li>
-            </ul>
+        
           </h1>
           <p className={`${styles.heroSubText}mt-[-50px] text-white-100`}>I develop compelling visual applications with <br className='sm:block hidden'/>intuitive interfaces and well-structured backend functionality.</p>
         </div>
