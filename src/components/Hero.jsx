@@ -12,7 +12,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white flex flex-row`}> Hi, I'm <span className='text-[#915eff] mx-5'>Bryan</span>
+          <h1 className={`${styles.heroHeadText} text-white flex flex-row shift`}> Hi, I'm &nbsp;<span className='text-[#915eff]'>Bryan</span>
         
           </h1>
           <p className={`${styles.heroSubText} text-white-100 sm:font-size-20`}>I develop compelling visual applications with <br className='sm:block hidden'/>intuitive interfaces and well-structured backend functionality.</p>
