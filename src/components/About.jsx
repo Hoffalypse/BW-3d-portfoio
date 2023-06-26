@@ -47,7 +47,7 @@ const About = () => {
     <motion.p 
     variants={fadeIn('', '', 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-    >I am a skilled software developer with experience in  Javascript and Typescript and expertise in frameworks like React, Angular, Node.js, MongoDB and MySQL. I am a fast learner and excel in problem solving. I collaborate closely with clients to create efficient, scalable and user-friendly solutions that solve real world problems. Let's work together to bring your ideas to life. 
+    >I am a skilled software developer with experience in Javascript and Typescript and expertise in frameworks like React, Next.js, Angular, Node.js, MongoDB and MySQL. I am a fast learner and excel in problem solving. I collaborate closely with clients to create efficient, scalable and user-friendly solutions that solve real world problems. Let's work together to bring your ideas to life. 
 
     </motion.p>
    

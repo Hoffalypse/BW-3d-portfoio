@@ -31,6 +31,7 @@ import {
   meredith,
   chris,
   angela,
+  carma,
 } from "../assets";
 
 export const navLinks = [
@@ -123,7 +124,7 @@ const experiences = [
 
   {
     title: "Software Engineer",
-    company_name: "HoffTech Solutions",
+    company_name: "AInnovations Inc",
     icon: hoffLogo,
     iconBg: "#383E56",
     date: "2022 - Present",
@@ -250,6 +251,28 @@ const projects = [
     live_link: "https://int-sol-dev.herokuapp.com/",
   },
   {
+    name: "Carma Car Rental",
+    description:
+      "Mock car rental application showcasing skills in Nextjs, TypeScript, Server-Side Redering, TailwindCSS and using HeadlessUI components. This app features a very modern UI/UX and completely responsive interface.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carma,
+    source_code_link: "https://github.com/Hoffalypse/carma-car-nextjs",
+    live_link: "https://carma-car-rental.vercel.app/",
+  },
+  {
     name: "Earthship Packaging",
     description:
       "Full Stack E-Commerce Application built for Earthship Packaging, LLC. Frontend built with React and Redux. Node, Express and MongoDB on the backend. Full admin login capability, managing all users, products and orders. Checkout through Paypal.",
@@ -316,28 +339,7 @@ const projects = [
     source_code_link: "https://github.com/moyuh/fire-fighter-tracking",
     live_link: "https://smokeys-helpers.herokuapp.com/",
   },
-  {
-    name: "Band Search App",
-    description:
-      "This app is a one-stop shop for all band information, biographies, album data and upcoming concerts. Frontend application using Javascript, CSS and HTML. Recieves API data from Ticketmsater and theAudioDB.",
-    tags: [
-      {
-        name: "jQuery",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "RestAPI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Frontend",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bando,
-    source_code_link: "https://github.com/joseeenrique/Music-App",
-    live_link: "https://hoffalypse.github.io/Bandopedia/",
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

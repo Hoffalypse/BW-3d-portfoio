@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 import graph from "./tech/graphql.png";
 import mysql from "./tech/mysql.png"
 
-import hoffLogo from "./company/hoffLogo.png";
+import hoffLogo from "./company/AInnovationsFavicon.png";
 import quorum from "./company/quorum.jpg";
 import monarch from "./company/monarch.png";
 import tutor from "./company/tutor.png";
@@ -35,6 +35,7 @@ import hoffai from "./Hoffai.png";
 import wow from "./mplusteams.gif";
 import smokey from "./smokey.png";
 import bando from "./bando.jpg";
+import carma from "./carma-app.png"
 
 import meredith from "./meredith.png";
 import chris from "./chris.png";
@@ -78,4 +79,5 @@ export {
   meredith,
   chris,
   angela,
+  carma,
 };
