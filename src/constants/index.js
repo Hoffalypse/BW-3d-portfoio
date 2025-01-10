@@ -8,7 +8,7 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  python,
   tailwind,
   nodejs,
   mongodb,
@@ -59,7 +59,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Architect",
     icon: backend,
   },
   {
@@ -86,8 +86,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",

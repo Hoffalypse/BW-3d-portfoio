@@ -17,7 +17,6 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -40,6 +39,7 @@ import carma from "./carma-app.png"
 import meredith from "./meredith.png";
 import chris from "./chris.png";
 import angela from "./angela.png";
+import python from "./tech/Python.png";
 
 export {
   logo,
@@ -62,7 +62,7 @@ export {
   mysql,
   nodejs,
   reactjs,
-  redux,
+  python,
   tailwind,
   typescript,
   threejs,
