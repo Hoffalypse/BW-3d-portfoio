@@ -40,6 +40,8 @@ import meredith from "./meredith.png";
 import chris from "./chris.png";
 import angela from "./angela.png";
 import python from "./tech/Python.png";
+import picknik from "./company/picknik.png";
+import owl from "./company/owl.png";
 
 export {
   logo,
@@ -80,4 +82,6 @@ export {
   chris,
   angela,
   carma,
+  picknik,
+  owl,
 };
