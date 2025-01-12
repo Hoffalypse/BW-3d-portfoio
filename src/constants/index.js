@@ -132,9 +132,9 @@ const experiences = [
     iconBg: "black",
     date: "2023 - 2025",
     points: [
-      "Develop the client-facing interface for unstructured robotic arm software using React/TypeScript, enabling operators to efficiently configure and control advanced robotic systems",
-      "Implement detailed 3D robot motion planning using Three.js, enhancing user clarity on complex kinematics and trajectory outcomes",
-      "Collaborate with back-end robotics engineers, working with ROS, Python REST APIs, and WebSocket connections to ensure real-time system updates and responsive UIs",
+      "Developed the client-facing interface for unstructured robotic arm software using React/TypeScript, enabling operators to efficiently configure and control advanced robotic systems",
+      "Implemented detailed 3D robot motion planning using Three.js, enhancing user clarity on complex kinematics and trajectory outcomes",
+      "Collaborated with back-end robotics engineers, working with ROS, Python REST APIs, and WebSocket connections to ensure real-time system updates and responsive UIs",
       "Established robust unit test suites, driving code coverage up by 80% within six months and reducing regressions in newly deployed feature",
     ],
   },
@@ -158,10 +158,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies",
-      "Collaborating with cross-functional teams including designers, product managers and other developers to create high-quality applications",
-      "Implementing responsive design and ensuring cross-browser compatibility",
-      "Develop integrated administrator panels to track employee and client data, greatly increasing productivity",
+      "Developed and maintained web applications using React.js and other related technologies",
+      "Collaborated with cross-functional teams including designers, product managers and other developers to create high-quality applications",
+      "Implemented responsive design and ensuring cross-browser compatibility",
+      "Developed integrated administrator panels to track employee and client data, greatly increasing productivity",
     ],
   },
   {
@@ -171,9 +171,9 @@ const experiences = [
     iconBg: "#f1f1f1",
     date: "2022 - Present",
     points: [
-      "Tutoring students from full stack web development bootcamps as they work through learning the MERN Stack",
-      "Quickly and effectively troubleshoot code that when students are stuck with implementing projects and assignments",
-      "Use effecctive tutoring to generate word-of-mouth referrals to gain additional students to assist",
+      "Tutored students from full stack web development bootcamps as they work through learning the MERN Stack",
+      "Quickly and effectively troubleshoot code when students are stuck with implementing projects and assignments",
+      "Use effective tutoring to generate word-of-mouth referrals to gain additional students to assist",
     ],
   },
   {
@@ -207,7 +207,7 @@ const testimonials = [
       "One of the most talented new engineers I have ever had the pleasure of working with, a true talent.",
     name: "John Wilday",
     designation: "Director",
-    company: "Comprhensive Recruiting",
+    company: "Comprehensive Recruiting",
     image: chris,
   },
   {
